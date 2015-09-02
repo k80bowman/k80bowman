@@ -1,6 +1,6 @@
 /*GENERAL*/
 h1, h2, h3 {
-  font-family: 'Six Caps', sans-serif;
+  font-family: 'Yesteryear', sans-serif;
   color: #1d2442;
 }
 
@@ -17,11 +17,49 @@ h3 {
 }
 
 p {
-  font-family: 'Poly', serif;
+  font-family: 'Lora', serif;
 }
 
 
 /*HEADER*/
-#logo {
-  max-width: 50%;
+.navbar {
+  background: url(/images/trees-header.png) no-repeat center center fixed;
+}
+
+.nav-custom {
+  background: url(/images/trees-header.png) no-repeat center;
+  background-size: cover;
+  margin: 0;
+  font-family: 'Yesteryear', sans-serif;
+}
+
+.nav-custom:link {
+  color: #e4e3d9;
+}
+
+.transparency {
+  background-color: #e4e3d9;
+  opacity: .2;
+  height: 100%;
+  width: 100%;
+}
+
+
+/*Home*/
+#Home {
+  background: url(/images/trees.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding-bottom: 100px;
+}
+
+#bigName {
+  font-size: 8em;
+  color: #e4e3d9;
+  text-shadow: 3px 3px 5px #1d2442;
+  -ms-transform: rotate(-12deg); /* IE 9 */
+  -webkit-transform: rotate(-12deg); /* Chrome, Safari, Opera */
+  transform: rotate(-12deg);
+  height: 600px;
+  margin-top: 250px;
 }
