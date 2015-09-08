@@ -71,6 +71,35 @@ p {
 }
 
 
+/*FOOTER*/
+footer {
+  clear: both;
+  text-align: center;
+}
+
+.foot {
+  background-color: #e4e3d9;
+}
+
+.social {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  max-width: 35px;
+  margin: 15px 5px 15px 5px;
+  color: #253525;
+}
+
+.social-icon:hover{
+  color: #253525;
+}
+
 
 /*Home*/
 .Home {
