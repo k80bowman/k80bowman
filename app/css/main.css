@@ -14,10 +14,12 @@ h2 {
 
 h3 {
   font-size: 2em;
+  margin: 0px;
 }
 
 p {
   font-family: 'Lora', serif;
+  font-size: 1.2em;
 }
 
 
@@ -138,10 +140,17 @@ footer {
 
 .forest {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 ul {
+  padding: 0px;
+  margin: 0px;
+  font-size: 1.2em;
+}
 
+.paragraph {
+  padding-bottom: 10px;
 }
 
 /*Between*/
