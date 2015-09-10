@@ -14,7 +14,7 @@ h2 {
 
 h3 {
   font-size: 3em;
-  margin: 0px;
+  margin: 0px 0px 10px 0px;
 }
 
 p {
@@ -181,6 +181,7 @@ ul {
 
 .captionTitle {
   text-align: center;
+  margin: 0px;
 }
 
 .gallery {
@@ -195,4 +196,41 @@ ul {
   height: auto;
   max-width: 300px;
   margin: 20px;
+}
+
+/*CONTACT*/
+.Contact {
+  background-color: #e4e3d9;
+  margin: 0px;
+  padding: 0px 0 50px 0;
+  width: 100%;
+}
+
+.headshot {
+  max-width: 300px;
+  height: auto;
+  border-radius: 100%;
+}
+
+.contact1 {
+  text-align: center;
+}
+
+.email{
+  display: inline;
+  font-size: 1.5em;
+}
+
+.contactLink {
+  display: inline;
+}
+
+.contact2 li {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.contact2 ul {
+  list-style: none;
 }
