@@ -9,17 +9,28 @@ h1 {
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 4em;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 3em;
   margin: 0px;
 }
 
 p {
   font-family: 'Lora', serif;
   font-size: 1.2em;
+}
+
+a {
+  color: #253525;
+  font-weight: bold;
+}
+
+a:hover, a:focus {
+  color: #253525;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 
