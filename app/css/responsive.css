@@ -1,5 +1,5 @@
 @media (min-width: 768px) {
-  #bigName { font-size: 13em; }
+  .bigName { font-size: 13em; }
 }
 
 @media (min-width: 992px) {
