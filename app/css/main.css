@@ -256,3 +256,19 @@ footer {
 .centered {
   text-align: center;
 }
+
+/*POST PAGE*/
+.post {
+  background-color: #e4e3d9;
+  padding: 100px 0px 100px 0px;
+  width: 100%;
+}
+
+.article {
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.post-title {
+  text-align: center;
+}
