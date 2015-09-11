@@ -1,3 +1,7 @@
 @media (min-width: 768px) {
   #bigName { font-size: 13em; }
 }
+
+@media (min-width: 992px) {
+  .contact2 ul { text-align: left; margin-left: 30px; }
+}

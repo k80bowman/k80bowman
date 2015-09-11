@@ -144,7 +144,7 @@ footer {
 .About {
   background-color: #e4e3d9;
   margin: 0px;
-  padding: 0px 0 50px 0;
+  padding: 0px 0px 100px 0px ;
   width: 100%;
 }
 
@@ -153,11 +153,11 @@ footer {
   padding: 75px 0px 20px 0px;
 }
 
-ul {
+/*ul {
   padding: 0px;
   margin: 0px;
   font-size: 1.2em;
-}
+}*/
 
 .paragraph {
   padding-bottom: 10px;
@@ -175,13 +175,14 @@ ul {
 .Portfolio {
   background-color: #e4e3d9;
   margin: 0px;
-  padding: 0px 0 50px 0;
+  padding: 0px 0px 100px 0px;
   width: 100%;
 }
 
 .captionTitle {
   text-align: center;
   margin: 0px;
+  padding-bottom: 10px;
 }
 
 .gallery {
@@ -202,7 +203,7 @@ ul {
 .Contact {
   background-color: #e4e3d9;
   margin: 0px;
-  padding: 0px 0 50px 0;
+  padding: 0px 0px 100px 0px;
   width: 100%;
 }
 
@@ -233,4 +234,24 @@ ul {
 
 .contact2 ul {
   list-style: none;
+  text-align: center;
+}
+
+
+/*BLOG*/
+.Blog {
+  background-color: #e4e3d9;
+  margin: 0px;
+  padding: 0px 0px 100px 0px;
+  width: 100%;
+}
+
+.post-list {
+  list-style-type: none;
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.centered {
+  text-align: center;
 }
