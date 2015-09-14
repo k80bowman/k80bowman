@@ -5,7 +5,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 6em;
 }
 
 h2 {
@@ -17,7 +17,7 @@ h3 {
   margin: 0px 0px 10px 0px;
 }
 
-p {
+p, article {
   font-family: 'Lora', serif;
   font-size: 1.2em;
 }
@@ -154,11 +154,11 @@ footer {
   padding: 75px 0px 20px 0px;
 }
 
-/*ul {
+ul {
   padding: 0px;
   margin: 0px;
   font-size: 1.2em;
-}*/
+}
 
 .paragraph {
   padding-bottom: 10px;
@@ -271,4 +271,9 @@ footer {
 
 .post-title {
   text-align: center;
+}
+
+.post-meta {
+  text-align: right;
+  margin-bottom: 10px;
 }
