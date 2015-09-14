@@ -19,8 +19,14 @@ h3 {
 
 p, article {
   font-family: 'Lora', serif;
+  max-width: 740px;
+  margin: 0 auto 10px auto;
+}
+
+p {
   font-size: 1.2em;
 }
+
 
 a {
   color: #253525;
@@ -120,7 +126,7 @@ footer {
 
 /*Home*/
 .Home {
-  background: url(/images/trees.jpg) no-repeat center center fixed;
+  background: url(/images/trees.jpg) no-repeat center fixed;
   background-size: cover;
   margin: 0;
   padding-bottom: 300px;
@@ -154,7 +160,7 @@ footer {
   padding: 75px 0px 20px 0px;
 }
 
-ul {
+.contact2 ul, .skills {
   padding: 0px;
   margin: 0px;
   font-size: 1.2em;
@@ -197,7 +203,9 @@ ul {
   width: 100%;
   height: auto;
   max-width: 300px;
-  margin: 20px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*CONTACT*/
@@ -233,7 +241,7 @@ ul {
   font-size: 1.5em;
 }
 
-.contact2 ul {
+.contact2 ul, {
   list-style: none;
   text-align: center;
 }
@@ -242,16 +250,17 @@ ul {
 /*BLOG*/
 .Blog {
   background-color: #e4e3d9;
-  margin: 0px;
-  padding: 0px 0px 100px 0px;
+  padding: 0px 0px 70px 0px;
   width: 100%;
 }
 
-.post-list {
+.post-list{
   list-style-type: none;
   max-width: 740px;
+  padding: 30px;
   margin: 0 auto;
 }
+
 
 .centered {
   text-align: center;
@@ -260,14 +269,10 @@ ul {
 /*POST PAGE*/
 .post {
   background-color: #e4e3d9;
-  padding: 100px 0px 100px 0px;
+  padding: 100px 30px 100px 30px;
   width: 100%;
 }
 
-.article {
-  max-width: 740px;
-  margin: 0 auto;
-}
 
 .post-title {
   text-align: center;

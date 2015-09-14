@@ -44,7 +44,7 @@ layout: default
 <div class="container-fluid Portfolio">
   <h1 class="title">Portfolio</h1>
   <div class="row gallery">
-    <div class="col-xs-6 col-md-3 project">
+    <div class="col-md-3 project">
         <a href="http://www.edgeofuncertainty.com" class="thumbnail">
           <img src="/images/Edge_of_Uncertainty_logo_thumb.png" alt="Edge of Uncertainty">
         </a>
@@ -53,7 +53,7 @@ layout: default
         <p>My blog where I post reviews of adventure books. Built using Bootstrap, Jekyll, and Github.</p>
       </div>
     </div>
-    <div class="col-xs-6 col-md-3 project">
+    <div class="col-md-3 project">
         <a href="http://freecodecamp.com/k80bowman" class="thumbnail">
           <img src="/images/freecodecamp_thumb.png" alt="Free Code Camp">
         </a>
@@ -101,7 +101,7 @@ layout: default
           {{ post.date | date: "%b %-d, %Y" }}
         </p>
 
-        <p>
+        <p class="excerpt">
           {{ post.excerpt }}
         </p>
       </li>
