@@ -38,12 +38,11 @@ a {
 
 a:hover, a:focus {
   color: #253525;
-  text-decoration: underline;
-  font-weight: bold;
+  text-decoration: none;
 }
 
-a:visited {
-  text-decoration:none;
+.txt-link:hover, .txt-link:focus {
+  text-decoration: underline;
 }
 
 
@@ -60,7 +59,7 @@ a:visited {
 }
 
 .hvr-grow {
-  display: inline-block;
+  /*display: inline-block;*/
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -74,8 +73,8 @@ a:visited {
   transition-property: transform;
 }
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 #navigation li a {
@@ -270,7 +269,6 @@ footer {
   max-width: 740px;
   margin: 0 auto;
 }
-
 
 .centered {
   text-align: center;
