@@ -39,6 +39,10 @@ a:hover, a:focus {
   font-weight: bold;
 }
 
+a:active {
+  text-decoration: none;
+}
+
 
 /*HEADER*/
 .nav-custom {
@@ -126,7 +130,7 @@ footer {
 
 /*Home*/
 .Home {
-  background: url(/images/trees.jpg) no-repeat center fixed;
+  background: url(/images/trees.jpg) no-repeat center;
   background-size: cover;
   margin: 0;
   padding-bottom: 300px;
