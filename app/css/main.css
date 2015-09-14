@@ -27,6 +27,9 @@ p {
   font-size: 1.2em;
 }
 
+ul {
+  padding: 0px;
+}
 
 a {
   color: #253525;
@@ -39,8 +42,8 @@ a:hover, a:focus {
   font-weight: bold;
 }
 
-a:active {
-  text-decoration: none;
+a:visited {
+  text-decoration:none;
 }
 
 
@@ -133,7 +136,7 @@ footer {
   background: url(/images/trees.jpg) no-repeat center;
   background-size: cover;
   margin: 0;
-  padding-bottom: 300px;
+  padding-bottom: 100px;
   width: 100%;
   overflow: hidden;
 }
@@ -146,7 +149,7 @@ footer {
   -webkit-transform: rotate(-12deg); /* Chrome, Safari, Opera */
   transform: rotate(-12deg);
   height: 400px;
-  margin-top: 250px;
+  margin-top: 200px;
   text-align: center;
   margin-right: 0px;
 }
@@ -164,7 +167,7 @@ footer {
   padding: 75px 0px 20px 0px;
 }
 
-.contact2 ul, .skills {
+.skills {
   padding: 0px;
   margin: 0px;
   font-size: 1.2em;
@@ -232,36 +235,39 @@ footer {
 
 .email{
   display: inline;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .contactLink {
   display: inline;
 }
 
+.contact2 ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
 .contact2 li {
   margin-bottom: 20px;
   margin-top: 20px;
   font-size: 1.5em;
-}
-
-.contact2 ul, {
-  list-style: none;
   text-align: center;
 }
+
+
 
 
 /*BLOG*/
 .Blog {
   background-color: #e4e3d9;
-  padding: 0px 0px 70px 0px;
+  padding: 30px 30px 100px 30px;
   width: 100%;
 }
 
 .post-list{
   list-style-type: none;
   max-width: 740px;
-  padding: 30px;
   margin: 0 auto;
 }
 
