@@ -9,7 +9,7 @@ layout: default
 <a name="About"></a>
 <div class="container-fluid About">
   <h1 class="title">Seeing the forest for the trees...</h1>
-    <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2 paragraph">
+    <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-2 paragraph">
       <p>
         I'm a self-taught web developer who prides herself on being able to focus not only on the details, but also on how they interact within a project as a whole. I am a creative thinker, a problem-solver, and I love nothing more than a good challenge.
       </p>
@@ -19,21 +19,41 @@ layout: default
       <p>In my spare time I enjoy writing fiction, reading, and have lately been learning about lettering, calligraphy, and typography. I volunteer as an Assistant Fiction Editor for <a class="txt-link" href="http://review.antiochcollege.org/antioch_review/">The Antioch Review</a>, a literary journal, and I have my own blog—<a class="txt-link" href="http://www.edgeofuncertainty.com">The Edge of Uncertainty</a>—where I review adventure books. I have a husband, two children, and two dogs and I love spending time with them, traveling, and having new adventures.
       </p>
     </div>
-  <div class="col-xs-10 col-xs-offset-1 col-md-4 col-lg-3">
+  <div class="col-xs-10 col-xs-offset-1 col-md-4">
     <h3>Skills</h3>
+    <p class="bold">General</p>
+    <ul class="skills">
+      <li>Front-end development</li>
+      <li>Version control (Git)</li>
+      <li>Responsive web design</li>
+      <li>Writing</li>
+      <li>Editing/Proofreading</li>
+      <li>Research Design</li>
+      <li>Qualitative Analysis</li>
+      <li>Statistical analysis</li>
+    </ul>
+    <p class="bold">Languages</p>
     <ul class="skills">
       <li>HTML5 and CSS3</li>
       <li>Javascript</li>
+      <li>Ruby</li>
+    </ul>
+    <p class="bold">Frameworks/Libraries</p>
+    <ul class="skills">
       <li>JQuery</li>
+      <li>Ruby on Rails</li>
       <li>Bootstrap</li>
+    </ul>
+    <p class="bold">Tools</p>
+    <ul class="skills">
+      <li>Atom</li>
+      <li>Github</li>
       <li>Jekyll</li>
-      <li>Git</li>
-      <li>Responsive web design</li>
-      <li>Adobe Creative Suite</li>
-      <li>Writing</li>
-      <li>Editing</li>
+      <li>Chrome Developer Tools</li>
+      <li>Adobe Illustrator</li>
+      <li>Adobe Photoshop</li>
+      <li>Adobe InDesign</li>
       <li>ArcGIS</li>
-      <li>Statistical analysis</li>
     </ul>
   </div>
 </div>
@@ -102,7 +122,7 @@ layout: default
         </p>
 
         <p class="excerpt">
-          {{ post.excerpt }}
+          {{ post.excerpt }} <a class="txt-link" href="{{ post.url | prepend: site.baseurl }}">. . .</a>
         </p>
       </li>
     {% endfor %}
