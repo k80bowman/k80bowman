@@ -14,7 +14,7 @@ I've been learning about recursive functions in JavaScript this week. I've been 
   </div>
 </div>
 
-<br/>I love this image. I look at it and I think of possibility and infinity and richness. It reminds me of the image below—-a print made by the artist Stefanie Posavec—-which is a visual analysis of the book **On the Road** by Jack Kerouac.
+<br/>I love this image. I look at it and I think of possibility and infinity and richness. It reminds me of the image below&mdash;a print made by the artist Stefanie Posavec&mdash;which is a visual analysis of the book **On the Road** by Jack Kerouac.
 
 <br/>
 <div class = "recursionImage">
