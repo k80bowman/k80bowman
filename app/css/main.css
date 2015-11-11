@@ -301,3 +301,30 @@ footer {
   text-align: right;
   margin-bottom: 10px;
 }
+
+.recursionImage {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.recursionTree {
+  max-width: 300px;
+}
+
+.source {
+  font-size: .8em;
+  font-style: italic;
+}
+
+blockquote {
+  border-left: 3px solid #253525;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-size: 1.1em;
+  color: #777;
+  overflow: hidden;
+}
+
+blockquote p {
+  display: inline;
+}
