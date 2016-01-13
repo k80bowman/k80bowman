@@ -13,6 +13,7 @@ layout: default
       <p>
         I'm a self-taught web developer who prides herself on being able to focus not only on the details, but also on how they interact within a project as a whole. I am a creative thinker, a problem-solver, and I love nothing more than a good challenge.
       </p>
+      <p>In January of 2016 I received my Front-End Development Certification from <a href src="http://www.freecodecamp.com">Free Code Camp</a>. Through this program I have done a lot of work, both building fully functional sites and working through different JavaScript-based algorithm solutions. I have also built and contributed to several sites on my own, including this one.<p>
       <p>
         I spent close to ten years working in the planning field and have been a freelance writer and editor since 2010. As a planner, I conducted data analyses, both quantitative and qualitative. I wrote and edited reports, wrote grant proposals, designed data graphics, designed map graphics, gave public presentations, organized public participation strategies and events, and was responsible for managing one other employee. As a writer and editor I have written book reviews, interviews, essays, short stories, and articles for trade magazines. I have also edited a variety of different types of documents, including academic theses, articles, and papers; resumes; and non-fiction books.
       </p>
@@ -35,14 +36,18 @@ layout: default
     <p class="bold">Languages</p>
     <ul class="skills">
       <li>HTML5 and CSS3</li>
-      <li>Javascript</li>
+      <li>JavaScript</li>
       <li>Ruby</li>
+      <li>SQL</li>
     </ul>
     <p class="bold">Frameworks/Libraries</p>
     <ul class="skills">
       <li>JQuery</li>
-      <li>Ruby on Rails</li>
+      <li>Sass</li>
       <li>Bootstrap</li>
+      <li>Bourbon</li>
+      <li>Neat</li>
+      <li>Ruby on Rails</li>
     </ul>
     <p class="bold">Tools</p>
     <ul class="skills">
@@ -64,23 +69,34 @@ layout: default
 <div class="container-fluid Portfolio">
   <h1 class="title">Portfolio</h1>
   <div class="row gallery">
-    <div class="col-md-3 project">
-        <a href="http://www.edgeofuncertainty.com" class="thumbnail">
-          <img src="/images/Edge_of_Uncertainty_logo_thumb.png" alt="Edge of Uncertainty">
-        </a>
-      <div class="caption">
-        <h3 class="captionTitle">The Edge of Uncertainty</h3>
-        <p>My blog where I post reviews of adventure books. Built using Bootstrap, Jekyll, and Github.</p>
-      </div>
-    </div>
-    <div class="col-md-3 project">
-        <a href="http://freecodecamp.com/k80bowman" class="thumbnail">
-          <img src="/images/freecodecamp_thumb.png" alt="Free Code Camp">
-        </a>
-      <div class="caption">
-        <h3 class="captionTitle">Free Code Camp</h3>
-        <p>Here you can see the work I've done through Free Code Camp.</p>
-      </div>
+      <div class="projects">
+        <div class="col-md-3 project">
+            <a href="http://www.edgeofuncertainty.com" class="thumbnail">
+              <img src="/images/Edge_of_Uncertainty_logo_thumb.png" alt="Edge of Uncertainty">
+            </a>
+          <div class="caption">
+            <h3 class="captionTitle">The Edge of Uncertainty</h3>
+            <p>My blog where I post reviews of adventure books. Built using Bootstrap, Jekyll, and Github.</p>
+          </div>
+        </div>
+        <div class="col-md-3 project">
+            <a href="http://www.skillsync.io" class="thumbnail">
+              <img src="/images/ss-logo.png" alt="SkillSync">
+            </a>
+          <div class="caption">
+            <h3 class="captionTitle">SkillSync</h3>
+            <p>I designed and built the front end of this site using HTML, CSS, and Sass.</p>
+          </div>
+        </div>
+        <div class="col-md-3 project">
+            <a href="http://freecodecamp.com/k80bowman" class="thumbnail">
+              <img src="/images/freecodecamp_thumb.png" alt="Free Code Camp">
+            </a>
+          <div class="caption">
+            <h3 class="captionTitle">Free Code Camp</h3>
+            <p>Here you can see the work I've done through Free Code Camp.</p>
+          </div>
+        </div>
     </div>
   </div>
 </div>
@@ -108,7 +124,7 @@ layout: default
 
 <a name="Blog"></a>
 <div class="container-fluid Blog">
-    <h1 class="title">What I learned this week...</h1>
+    <h1 class="title">Reflections on Learning to Code</h1>
     <ul class="post-list">
     {% for post in site.posts limit:5 %}
 

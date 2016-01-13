@@ -211,8 +211,12 @@ footer {
 
 .gallery {
   width: 80%;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
+}
+
+.projects {
+    margin: 0 auto;
+    text-align: center;
 }
 
 .project {
