@@ -1,0 +1,19 @@
+.name {
+    background-color: $dark-blue;
+    width: 100%;
+
+    h1 {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    &__social {
+        padding-bottom: 30px;
+        text-align: center;
+
+        &--icon {
+            color: $offwhite;
+            margin: 0 10px;
+        }
+    }
+}

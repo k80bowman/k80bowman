@@ -1,14 +1,12 @@
 //fonts & sizes
 $body-stack: "Merriweather", "Georgia", serif;
-$heading-stack: "Open Sans", "Arial", sans-serif;
+$heading-stack: "Open Sans", sans-serif;
 
-$base-font-size: 14px;
-$modular-scale-1: 1.792em;
-$modular-scale-2: 2.5em;
-$modular-scale-3: 4.48em;
-$modular-scale-4: 6.25em;
-$modular-scale-5: 11.2em;
-$modular-scale-6: 15.625em;
+$base-font-size: 16px;
+$modular-scale-1: 1.728em;
+$modular-scale-2: 2.986em;
+$modular-scale-3: 4.3em;
+$modular-scale-4: 5.16em;
 
 //colors
 $base-font-color: #303030;
@@ -55,6 +53,8 @@ h1, h2, h3 {
 
 h1 {
     font-size: $modular-scale-3;
+    text-align: center;
+    color: $offwhite;
 }
 
 h2 {
