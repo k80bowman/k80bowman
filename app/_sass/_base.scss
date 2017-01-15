@@ -34,8 +34,8 @@ li {
 
 a {
     text-decoration: none;
-    color: $dark-blue;
     font-weight: normal;
+    color: $base-font-color;
 
     :hover, :active {
         color: $salmon;
@@ -60,6 +60,7 @@ h1 {
 h2 {
     font-size: $modular-scale-2;
     text-align: center;
+    padding: 20px 0;
 }
 
 h3 {
