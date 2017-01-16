@@ -1,0 +1,89 @@
+//media breakpoint
+$tablet-landscape-width: "(min-width: 600px)";
+
+@media #{$tablet-landscape-width} {
+    .flex__container--row1 {
+        display: flex;
+        flex-flow: row-reverse wrap;
+        align-items: center;
+
+        .name {
+            width: 60%;
+            height: 260px;
+            h1 {
+                margin-bottom: 20px;
+            }
+        }
+
+        .about {
+            width: 40%;
+            margin: 0;
+            p {
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .flex__container--row2 {
+        display:flex;
+        flex-flow: row wrap;
+        align-items: stretch;
+
+        .skills {
+            width: 50%;
+            margin: 0;
+        }
+
+        .projects {
+            width: 50%;
+            padding: 0;
+        }
+    }
+
+    .flex__container--row3 {
+        display: flex;
+        flex-flow: row-reverse wrap;
+        align-items: stretch;
+
+        .experience {
+            width: 60%;
+        }
+
+        .education {
+            width: 40%;
+            padding: 0;
+
+            &__container {
+                width: 90%;
+                margin: 0 auto;
+            }
+
+            &__qualification {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .contact {
+        width: 100%;
+        text-align: left;
+
+        &__container {
+            width: 50%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        h2 {
+            flex-basis: 100%;
+        }
+
+        img {
+            width: 150px;
+        }
+    }
+}

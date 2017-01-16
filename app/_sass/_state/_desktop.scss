@@ -1,0 +1,69 @@
+//media breakpoint
+$desktop-width: "(min-width: 1200px)";
+
+@media #{$desktop-width} {
+    .flex__container--row1 {
+        .name {
+            &__social--icon {
+                margin: 0 20px;
+            }
+        }
+
+        .about {
+            p {
+                width: 80%;
+            }
+        }
+    }
+
+    .flex__container--row2 {
+        .skills {
+            &__container{
+                width: 80%;
+                display: flex;
+                flex-flow: row wrap;
+                align-items: flex-start;
+
+                h2 {
+                    flex-basis: 100%;
+                }
+
+                &--category {
+                    flex-basis: 50%;
+                }
+            }
+        }
+
+        .projects {
+            &__gallery {
+                display: flex;
+                flex-flow: row wrap;
+                align-items: baseline;
+
+                &--project {
+                    flex-basis: 50%;
+                }
+            }
+        }
+    }
+
+    .flex__container--row3 {
+        .experience {
+            &__container {
+                width: 80%;
+            }
+        }
+
+        .education {
+            &__container {
+                width: 80%;
+            }
+        }
+    }
+
+    .contact {
+        &__container {
+            width: 30%;
+        }
+    }
+}
