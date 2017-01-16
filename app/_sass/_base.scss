@@ -11,7 +11,7 @@ $modular-scale-4: 5.16em;
 //colors
 $base-font-color: #303030;
 $dark-blue: #193441;
-$light-blue: #3E606F;
+$light-blue: #CEE6F2;
 $green: #91AA9D;
 $salmon: #FF7171;
 $offwhite: #F9F9F4;
@@ -34,13 +34,10 @@ li {
 
 a {
     text-decoration: none;
-    font-weight: normal;
     color: $base-font-color;
 
     :hover, :active {
         color: $salmon;
-        text-decoration: none;
-        font-weight: normal;
     }
 }
 
@@ -65,10 +62,5 @@ h2 {
 
 h3 {
     font-size: $modular-scale-1;
-    margin: 10px 0;
-}
-
-//page setup
-body {
-    background-color: $offwhite;
+    padding: 10px 0;
 }
