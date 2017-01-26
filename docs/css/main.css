@@ -1,0 +1,207 @@
+body, p {
+  font-family: "Merriweather", "Georgia", serif;
+  font-size: 16px;
+  color: #303030;
+  line-height: 1.75;
+  margin: 0; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #303030; }
+  a :hover, a :active {
+    color: #FF7171; }
+
+h1, h2, h3 {
+  font-family: "Open Sans", sans-serif;
+  color: #303030;
+  line-height: 1.15;
+  margin: 0; }
+
+h1 {
+  font-size: 4.3em;
+  text-align: center;
+  color: #F9F9F4; }
+
+h2 {
+  font-size: 2.986em;
+  text-align: center;
+  padding: 20px 0; }
+
+h3 {
+  font-size: 1.728em;
+  padding: 10px 0; }
+
+body {
+  background-color: #F9F9F4; }
+
+.name {
+  background-color: #193441; }
+  .name h1 {
+    padding-top: 20px;
+    padding-bottom: 40px; }
+  .name__social {
+    padding-bottom: 30px;
+    text-align: center; }
+    .name__social--icon {
+      color: #F9F9F4;
+      margin: 0 10px; }
+
+.about {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 0; }
+
+.skills {
+  background-color: #91AA9D; }
+  .skills__container {
+    width: 90%;
+    padding-bottom: 10px;
+    margin: 0 auto; }
+  .skills__list {
+    padding: 0 0 20px 20px; }
+
+.projects {
+  padding-bottom: 30px; }
+  .projects__gallery {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center; }
+    .projects__gallery--project {
+      margin: 20px 0;
+      padding: 0 10px; }
+      .projects__gallery--project img {
+        width: 100px; }
+
+.experience {
+  background-color: #CEE6F2; }
+  .experience__container {
+    width: 90%;
+    padding-bottom: 10px;
+    margin: 0 auto; }
+  .experience__job {
+    padding-bottom: 20px; }
+    .experience__job p {
+      margin-bottom: 10px; }
+    .experience__job a:hover, .experience__job :active {
+      color: #FF7171; }
+
+.education {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 30px; }
+
+.contact {
+  background-color: #193441;
+  text-align: center; }
+  .contact__container {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px; }
+  .contact h2, .contact a {
+    color: #F9F9F4; }
+  .contact a:hover, .contact :active {
+    color: #FF7171; }
+  .contact img {
+    width: 100px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 2px solid #F9F9F4; }
+  .contact__social li {
+    margin: 8px 0; }
+    .contact__social li i {
+      margin-right: 5px; }
+
+@media (min-width: 800px) {
+  .flex__container--row1 {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    align-items: center; }
+    .flex__container--row1 .name {
+      width: 60%;
+      height: 260px; }
+      .flex__container--row1 .name h1 {
+        margin-bottom: 20px; }
+    .flex__container--row1 .about {
+      width: 40%;
+      margin: 0; }
+      .flex__container--row1 .about p {
+        width: 90%;
+        margin: 0 auto; }
+
+  .flex__container--row2 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch; }
+    .flex__container--row2 .skills {
+      width: 50%;
+      margin: 0; }
+    .flex__container--row2 .projects {
+      width: 50%;
+      padding: 0; }
+
+  .flex__container--row3 {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    align-items: stretch; }
+    .flex__container--row3 .experience {
+      width: 60%; }
+    .flex__container--row3 .education {
+      width: 40%;
+      padding: 0; }
+      .flex__container--row3 .education__container {
+        width: 90%;
+        margin: 0 auto; }
+      .flex__container--row3 .education__qualification {
+        margin-bottom: 30px; }
+
+  .contact {
+    width: 100%;
+    text-align: left; }
+    .contact__container {
+      width: 50%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center; }
+    .contact h2 {
+      flex-basis: 100%; }
+    .contact img {
+      width: 150px; } }
+@media (min-width: 1200px) {
+  .flex__container--row1 .name__social--icon {
+    margin: 0 20px; }
+  .flex__container--row1 .about p {
+    width: 80%; }
+
+  .flex__container--row2 .skills__container {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start; }
+    .flex__container--row2 .skills__container h2 {
+      flex-basis: 100%; }
+    .flex__container--row2 .skills__container--category {
+      flex-basis: 50%; }
+  .flex__container--row2 .projects__gallery {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    margin-bottom: 20px; }
+    .flex__container--row2 .projects__gallery--project {
+      flex-basis: 45%; }
+
+  .flex__container--row3 .experience__container {
+    width: 80%; }
+  .flex__container--row3 .education__container {
+    width: 80%; }
+
+  .contact__container {
+    width: 30%; } }

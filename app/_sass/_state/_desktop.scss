@@ -39,9 +39,10 @@ $desktop-width: "(min-width: 1200px)";
                 display: flex;
                 flex-flow: row wrap;
                 align-items: baseline;
+                margin-bottom: 20px;
 
                 &--project {
-                    flex-basis: 50%;
+                    flex-basis: 45%;
                 }
             }
         }
